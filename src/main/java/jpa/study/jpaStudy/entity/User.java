@@ -17,10 +17,10 @@ public class User {
     @Column(name="ID")
     private Long id;
 
-    @Column(name="NAME")
+    @Column(name="NAME", nullable = false)
     private String name;
 
-    @Column(name="PHONE")
+    @Column(name="PHONE", nullable = false)
     private String phone;
 
     @Column(name="CREATEDATE")
